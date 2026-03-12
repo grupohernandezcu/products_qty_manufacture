@@ -21,6 +21,6 @@ based on available stock of its Bill of Materials components.
     "images": ["static/description/banner.png"],
     "license": "LGPL-3",
     "installable": True,
-    "auto_install": False,xº
+    "auto_install": False,
     "application": False,
 }
