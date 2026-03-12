@@ -1,0 +1,107 @@
+<section class="oe_container" style="padding: 24px 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h2 class="oe_slogan" style="color: #1f6f8b; margin-bottom: 8px">
+      Products Qty Manufacture
+    </h2>
+    <h3 class="oe_slogan" style="margin-top: 0; color: #444; font-weight: 500">
+      Compute how many finished units can be manufactured from current BoM
+      component stock.
+    </h3>
+  </div>
+</section>
+
+<section class="oe_container" style="padding: 8px 0 0 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h4 style="color: #1f6f8b">Overview</h4>
+    <p style="font-size: 16px; line-height: 1.6; color: #333">
+      This module extends products to calculate
+      <strong>manufacturable quantity</strong> based on the selected Bill of
+      Materials (BoM). It helps planners and warehouse teams decide what can be
+      produced immediately with on-hand component stock.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container" style="padding: 8px 0 0 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h4 style="color: #1f6f8b">Main Features</h4>
+    <ul
+      style="font-size: 16px; line-height: 1.7; color: #333; padding-left: 20px"
+    >
+      <li>
+        Adds a dedicated BoM field on product/product template for stock
+        manufacturing calculation.
+      </li>
+      <li>
+        Adds <strong>To manufacture</strong> smart stat button with computed
+        quantity.
+      </li>
+      <li>
+        Supports product and template forms (single-variant templates included).
+      </li>
+      <li>
+        Lets users open the selected BoM report directly from the smart button.
+      </li>
+      <li>
+        Optional context flag to include manufacturable quantity in forecasted
+        stock.
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="oe_container" style="padding: 8px 0 0 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h4 style="color: #1f6f8b">How The Calculation Works</h4>
+    <p style="font-size: 16px; line-height: 1.6; color: #333">
+      For each BoM component, the module computes:
+      <code>free_qty / required_qty</code>. The smallest ratio (bottleneck
+      component) defines how many BoM batches can be produced, then it is
+      multiplied by the BoM production quantity.
+    </p>
+    <p style="font-size: 16px; line-height: 1.6; color: #333; margin-bottom: 0">
+      Example: if BoM requires 1 board and 4 legs, and stock is 10 boards and 12
+      legs, the manufacturable quantity is 3 finished units.
+    </p>
+  </div>
+</section>
+
+<section class="oe_container" style="padding: 8px 0 0 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h4 style="color: #1f6f8b">Configuration</h4>
+    <ol
+      style="font-size: 16px; line-height: 1.7; color: #333; padding-left: 20px"
+    >
+      <li>Install Manufacturing and Inventory apps.</li>
+      <li>Open a storable product that has a manufacturing BoM.</li>
+      <li>
+        Set <strong>BoM for compute manufacture stock</strong> on the product.
+      </li>
+      <li>
+        Use the smart button to monitor
+        <strong>To manufacture</strong> quantity.
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="oe_container" style="padding: 8px 0 18px 0">
+  <div class="oe_row oe_spaced" style="max-width: 980px; margin: 0 auto">
+    <h4 style="color: #1f6f8b">Support</h4>
+    <p
+      style="font-size: 16px; line-height: 1.6; color: #333; margin-bottom: 6px"
+    >
+      Company: Grupo Hernandez S.U.R.L
+    </p>
+    <p style="font-size: 16px; line-height: 1.6; color: #333; margin: 0">
+      Website:
+      <a href="https://grupohernandez.cu" target="_blank"
+        >https://grupohernandez.cu</a
+      ><br />
+      Email:
+      <a href="mailto:comercial@grupohernandez.cu"
+        >comercial@grupohernandez.cu</a
+      >
+    </p>
+  </div>
+</section>

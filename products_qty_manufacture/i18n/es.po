@@ -1,0 +1,60 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* products_qty_manufacture
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20240325\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 14:30+0000\n"
+"PO-Revision-Date: 2024-08-17 10:31-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: products_qty_manufacture
+#: model_terms:ir.ui.view,arch_db:products_qty_manufacture.product_product_stock
+#: model_terms:ir.ui.view,arch_db:products_qty_manufacture.product_product_variant
+#: model_terms:ir.ui.view,arch_db:products_qty_manufacture.product_template_normal
+msgid "<span class=\"o_stat_text\">To manufacture</span>"
+msgstr "<span class=\"o_stat_text\">A fabricar</span>"
+
+#. module: products_qty_manufacture
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_product__stock_bom_id
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_template__stock_bom_id
+msgid "BoM for compute manufacture stock"
+msgstr "BoM para calcular stock de fabricación"
+
+#. module: products_qty_manufacture
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_product__is_manufacture
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_template__is_manufacture
+msgid "Is Manufacture"
+msgstr "Es fabricado"
+
+#. module: products_qty_manufacture
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_product__qty_manufacture
+#: model:ir.model.fields,field_description:products_qty_manufacture.field_product_template__qty_manufacture
+#: model_terms:ir.ui.view,arch_db:products_qty_manufacture.product_product_variant
+msgid "Manufacture"
+msgstr "Fabricación"
+
+#. module: products_qty_manufacture
+#: model:ir.model,name:products_qty_manufacture.model_product_template
+msgid "Product"
+msgstr "Producto"
+
+#. module: products_qty_manufacture
+#: model:ir.model,name:products_qty_manufacture.model_product_product
+msgid "Product Variant"
+msgstr "Variante de producto"
+
+#. module: products_qty_manufacture
+#: model:ir.model.fields,help:products_qty_manufacture.field_product_product__qty_manufacture
+#: model:ir.model.fields,help:products_qty_manufacture.field_product_template__qty_manufacture
+msgid "Quantity of stock compute from BoM."
+msgstr ""
